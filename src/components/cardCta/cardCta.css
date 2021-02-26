@@ -1,0 +1,59 @@
+.ctaCard{
+    background-color: #dddd;
+    border-radius: 3px;
+    padding: 10px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+
+}
+.title{
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 16px;
+}
+.img{
+    display: block;
+    margin: 0 auto;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    width: 100%;
+    cursor: pointer;
+}
+.img:hover{
+    transition: opacity linear 100ms;
+    opacity: 0.6;
+}
+
+p{ 
+    font-size: 14px;
+    margin-top: -1px;
+    margin-bottom: 9px;
+}
+.instructor{
+    color: #73726c;
+    font-size: 12px;
+}
+.rating{
+    color: #BE5A0E;
+    font-weight: 700;
+}
+.star{
+    color: #EB8A2F;
+    font-size: 12px;
+}
+.people{
+    color: #73726c;
+}
+.btn{
+  background: #0056D2;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.btn:focus{
+    outline: none;
+}

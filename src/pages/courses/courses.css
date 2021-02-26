@@ -1,0 +1,10 @@
+.courseContainer{
+    display: grid;
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin: 50px 50px;
+}
+.cartContainer{
+    text-align: center;
+}
